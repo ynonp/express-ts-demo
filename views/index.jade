@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  if winner
+    p And the winner is... #{winner.color} - #{winner.speed}
+  p Welcome to #{title}
